@@ -441,3 +441,28 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 375px) {
+    .catalog {
+        &__tab {
+            width: 81px;
+            height: 39px;
+            line-height: 33px;
+            font-size: 8px;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .catalog {
+        &__tab {
+            width: 81px;
+            height: 39px;
+            line-height: 33px;
+            font-size: 8px;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__social-item {
+        margin: -12px 15px;
+    }
+}
